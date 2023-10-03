@@ -7,6 +7,6 @@ print ">"
 rows = gets.chomp.to_i # on demande la valeur de rows à l'utilisateur
 
 for row in 0..rows 
-	row.times {print "*"}
+	row.times {print "#"}
 	puts
 end
